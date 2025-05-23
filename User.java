@@ -5,7 +5,7 @@ public class User extends Person {
     private String password;
 
     public User(String username, String password) {
-        super(username); // name is used as username
+        super(username); 
         this.password = password;
     }
 
